@@ -38,3 +38,8 @@ upload.addEventListener('dragdrop', function (e) {
 upload.addEventListener('change', function (e) {
     onFile();
 }, false);
+
+function myFunction() {
+  alert("Auth Failed . Xernar Bookshelf")
+window.open("https://xernar.com");
+}
